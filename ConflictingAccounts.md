@@ -1,16 +1,16 @@
 # How to deal with conflicting accounts
 
-As more websites add support for 2-Step Verification using the TOTP standard, there is an increased risk that a user will have identical profiles for two or more different websites.   For instance, user "joe\_example@gmail.com" may have the same username for many websites (including Google, Facebook, Dropbox, and Live.com).
+As more websites add support for 2-Step Verification using the TOTP standard, there is an increased risk that a user will have identical profiles for two or more different websites.   For instance, user "joe_example@gmail.com" may have the same username for many websites (including Google, Facebook, Dropbox, and Live.com).
 
 If that user has enabled two step verification for all websites and intends to add all of the accounts to the same code generation app, this may result (depending on how the code generating application handles conflicting accounts internally) in accounts that are indistinguishable to the user in the application UI, or worse yet, in a situation where one account overwrites another, effectively locking the user out of the overridden account.
 
 ## Recommendation for websites supporting the TOTP/HOTP standard
 
-When you encode a URI in a QR code you should make sure you add the “Issuer Parameter” (described in the [URI format page](https://code.google.com/p/google-authenticator/wiki/KeyUriFormat)) to allow the code generating app to programmatically distinguish the account from others using the same username.
+When you encode a URI in a QR code you should make sure you add the “Issuer Parameter” (described in the [URI format page](KeyUriFormat)) to allow the code generating app to programmatically distinguish the account from others using the same username.
 
 Moreover, for backwards compatibility with older versions of code generating apps, we recommend prepending the issuer name to the account label, followed by colon (:).  By adding this prefix, you will be preventing code generation applications that do not read the “issuer” parameters from overwriting your entry.  You will also make it easier to the end user to tell which code generator goes with your site.
 
-For instance, if your website’s name is “Company” and the username is “joe\_example@gmail.com” consider encoding the following URI format in thr QR code that apps will read:
+For instance, if your website’s name is “Company” and the username is “joe_example@gmail.com” consider encoding the following URI format in thr QR code that apps will read:
 
 ```
 otpauth://totp/Company:joe_example@gmail.com?secret=[...]&issuer=Company
