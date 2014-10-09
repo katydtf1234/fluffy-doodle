@@ -3,8 +3,8 @@
   * Download and install [Antenna](http://antenna.sourceforge.net/)
   * Download and install [bb-ant-tools](http://bb-ant-tools.sourceforge.net/)
   * Download and install [Eclipse with BlackBerry plug-ins](http://na.blackberry.com/eng/developers/javaappdev/javaeclipseplug.jsp) or the [BlackBerry JDE](http://na.blackberry.com/eng/developers/javaappdev/javadevenv.jsp)
-  * ` hg clone https://google-authenticator.googlecode.com/hg/ google-authenticator `
-  * ` cd mobile/blackberry `
+  * ` git clone https://github.com/google/google-authenticator.git `
+  * ` cd google-authenticator/mobile/blackberry `
   * Create file ` local.properties ` in project root (see example below)
   * Run ` ant release `
 
