@@ -12,6 +12,7 @@ This project currently offers mobile application implementations of HOTP/TOTP fo
 
 Google Authenticator for Android
 ================================
+The code for Android has been moved to https://github.com/google/google-authenticator-android.
 
 The [https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2 Android mobile app] supports:
   * Multiple accounts
