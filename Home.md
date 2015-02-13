@@ -10,7 +10,7 @@ Index
 * [[Conflicting Accounts]]
 * [[Key Uri Format]]
 * [[Pam Module Instructions]]
-* [[Troubleshooting]]
+* [[Troubleshooting Tips]]
 
 Implementations
 ===============
