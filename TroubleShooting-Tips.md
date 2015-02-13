@@ -1,8 +1,7 @@
-# Trouble Shooting Tips
-
 The vast majority of problems with TOTP two-step verification are a
 direct result of the server and the token-generator having different
-ideas of what the current time is. Some amount of time skew is tolerated. But significant differences will usually result in two-step verification failing.
+ideas of what the current time is. Some amount of time skew is tolerated.
+But significant differences will usually result in two-step verification failing.
 
 The PAM module has an optional feature to detect and compensate for
 excessive skew in time stamps. If enabled, if requires the user to
