@@ -5,12 +5,12 @@ These implementations support the HMAC-Based One-time Password (HOTP) algorithm 
 Index
 =====
 
-* [[CheckingOut]]
-* [[BlackBerryDevelopment]]
-* [[ConflictingAccounts]]
-* [[KeyUriFormat]]
-* [[PamModuleInstructions]]
-* [[TroubleShooting]]
+* [[Checking Out]]
+* [[BlackBerry Development]]
+* [[Conflicting Accounts]]
+* [[Key Uri Format]]
+* [[Pam Module Instructions]]
+* [[Troubleshooting]]
 
 Implementations
 ===============
