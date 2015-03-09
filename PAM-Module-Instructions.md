@@ -1,4 +1,12 @@
-Build and install by running `make install`.
+Build & install by running:
+
+    ./bootstrap.sh
+    ./configure
+    make
+    make install
+
+If you don't have access to `sudo`, you have to manually become "root" prior
+to calling `make install`.
 
 Then add this line to your PAM configuration file:
 
