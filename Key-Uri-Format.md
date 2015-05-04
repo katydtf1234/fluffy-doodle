@@ -85,7 +85,6 @@ Algorithm
 * SHA1 (Default)
 * SHA256
 * SHA512
-* MD5
 
 > Currently, the algorithm parameter is ignored by the Google Authenticator implementations.
 
