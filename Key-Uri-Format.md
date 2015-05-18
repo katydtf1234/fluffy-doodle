@@ -10,7 +10,7 @@ otpauth://TYPE/LABEL?PARAMETERS
 Examples
 --------
 
-Provision a TOTP key for user "alice@google.com", to use with a service provided by Example, Inc:
+Provision a TOTP key for user `alice@google.com`, to use with a service provided by Example, Inc:
 
 ```
 otpauth://totp/Example:alice@google.com?secret=JBSWY3DPEHPK3PXP&issuer=Example
