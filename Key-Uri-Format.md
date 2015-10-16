@@ -46,7 +46,7 @@ label = accountname / issuer (“:” / “%3A”) *”%20” accountname
 ```
 
 Valid values might include `Example:alice@gmail.com`, `Provider1:Alice%20Smith` or
-`Big%20Corporation%3A%20alice@bigco.com`.
+`Big%20Corporation%3A%20alice%40bigco.com`.
 
 We recommend using **both** an issuer label prefix and an issuer parameter, described below.
 
