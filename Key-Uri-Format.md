@@ -22,6 +22,12 @@ This Base32 encoded key "JBSWY3DPEHPK3PXP" has the value:
 byte[] key = { 'H', 'e', 'l', 'l', 'o', '!', (byte) 0xDE, (byte) 0xAD, (byte) 0xBE, (byte) 0xEF };
 ```
 
+Here's another example with all optional parameters supplied
+
+```
+otpauth://totp/ACME%20Co:john.doe@email.com?secret=HXDMVJECJJWSRB3HWIZR4IFUGFTMXBOZ&issuer=ACME%20Co&algorithm=SHA1&digits=6&period=30
+```
+
 Types
 =====
 
