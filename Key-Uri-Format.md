@@ -31,7 +31,7 @@ otpauth://totp/ACME%20Co:john.doe@email.com?secret=HXDMVJECJJWSRB3HWIZR4IFUGFTMX
 Live Demo
 ---------
 
-Try [Browser Authenticator](https://github.com/Daplie/browser-authenticator) at <https://daplie.github.io/browser-authenticator/>
+Try [Browser Authenticator Demo](https://daplie.github.io/browser-authenticator/) at <https://daplie.github.io/browser-authenticator/>
 
 Types
 =====
