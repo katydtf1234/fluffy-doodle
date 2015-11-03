@@ -28,6 +28,11 @@ Here's another example with all optional parameters supplied
 otpauth://totp/ACME%20Co:john.doe@email.com?secret=HXDMVJECJJWSRB3HWIZR4IFUGFTMXBOZ&issuer=ACME%20Co&algorithm=SHA1&digits=6&period=30
 ```
 
+Live Demo
+---------
+
+Try [Browser Authenticator](https://github.com/Daplie/browser-authenticator) at <https://daplie.github.io/browser-authenticator/>
+
 Types
 =====
 
