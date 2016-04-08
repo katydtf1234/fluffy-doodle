@@ -69,4 +69,4 @@ a two-factor authentication step to any PAM-enabled application. It supports:
 Source Code
 ===========
 
-You can checkout the project's source code from the Git repository. See more details in CheckingOut.
+You can checkout the project's source code from the Git repository. See more details in [[Checking Out]].
