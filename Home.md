@@ -28,7 +28,7 @@ The [Android mobile app](https://play.google.com/store/apps/details?id=com.googl
   * Support  for 30-second TOTP codes
   * Support for counter-based HOTP codes
   * Key provisioning via scanning a QR code
-  * Manual key entry of [RFC 3548](http://tools.ietf.org/html/rfc3548) base32 key strings
+  * Manual key entry of [RFC 4648](http://tools.ietf.org/html/rfc4648) base32 key strings
 
 *DISCLAIMER*: This open source project allows you to download the code that powered version 2.21 of the application.  Subsequent versions contain Google-specific workflows that are not part of the project.
 
@@ -41,7 +41,7 @@ The [iOS mobile app](http://itunes.apple.com/us/app/google-authenticator/id38849
   * Support  for 30-second TOTP codes
   * Support for counter-based HOTP codes
   * Key provisioning via scanning a QR code
-  * Manual key entry of [RFC 3548](http://tools.ietf.org/html/rfc3548) base32 key strings
+  * Manual key entry of [RFC 4648](http://tools.ietf.org/html/rfc4648) base32 key strings
 
 Google Authenticator for Blackberry
 ===================================
@@ -51,7 +51,7 @@ The BlackBerry mobile app supports:
   * Multiple accounts
   * Support for 30-second TOTP codes
   * Support for counter-based HOTP codes
-  * Manual key entry of [RFC 3548](http://tools.ietf.org/html/rfc3548) base32 key strings
+  * Manual key entry of [RFC 4648](http://tools.ietf.org/html/rfc4648) base32 key strings
 
 PAM Module
 ==========
@@ -64,7 +64,7 @@ a two-factor authentication step to any PAM-enabled application. It supports:
   * Support for emergency scratch codes
   * Protection against replay attacks
   * Key provisioning via display of QR code
-  * Manual key entry of [RFC 3548](http://tools.ietf.org/html/rfc3548) base32 key strings
+  * Manual key entry of [RFC 4648](http://tools.ietf.org/html/rfc4648) base32 key strings
 
 Source Code
 ===========
