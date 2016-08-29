@@ -7,7 +7,7 @@ The PAM module has an optional feature to detect and compensate for
 excessive skew in time stamps. If enabled, if requires the user to
 repeatedly try to log in. After a sequence of three successful tokens
 the PAM module learns the client's time skew and will subsequently
-compensate for it. See the [README](https://github.com/google/google-authenticator/blob/master/libpam/README) file for details.
+compensate for it. See the [README](https://github.com/google/google-authenticator/blob/master/libpam/README.md) file for details.
 
 But sometimes interactive debugging tools are more helpful in tracking
 down problems. For this purpose, you can use the interactive
