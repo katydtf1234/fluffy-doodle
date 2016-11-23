@@ -1,3 +1,5 @@
+The google-authenticator PAM module has been moved to https://github.com/google/google-authenticator-libpam/.
+
 Build & install by running:
 
     ./bootstrap.sh
@@ -28,4 +30,4 @@ Each time you log into your system, you will now be prompted for your TOTP code
 (timebased one-time-password) after having entered your normal user id and your
 normal UNIX account password.
 
-For more details, see the [README](https://github.com/google/google-authenticator/blob/f2db05c52884e4d6c3894f5fd2cf10f0f686aec2/libpam/README.md).
+For more details, see the [README](https://github.com/google/google-authenticator-libpam/README.md).
