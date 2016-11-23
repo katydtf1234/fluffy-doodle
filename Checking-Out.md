@@ -5,6 +5,8 @@ Checking out the source code.
 
 To check out Google Authenticator for Android, you need to clone the ["Android" repository](https://github.com/google/google-authenticator-android) rather than the "default" one.
 
+The PAM module [has been moved too](https://github.com/google/google-authenticator-libpam).
+
 To build Google Authenticator for iOS, you need to check out two additional Subversion repositories:
 
 * ZXing: Under `mobile/ios/externals/zxing` from [ZXing](https://zxing.googlecode.com).
