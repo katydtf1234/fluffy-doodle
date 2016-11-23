@@ -11,5 +11,5 @@ compensate for it. See the [README](https://github.com/google/google-authenticat
 
 But sometimes interactive debugging tools are more helpful in tracking
 down problems. For this purpose, you can use the interactive
-[TOTP debugger](https://raw.githubusercontent.com/google/google-authenticator/master/libpam/totp.html). And you can also run the [demo.c](https://github.com/google/google-authenticator/blob/master/libpam/demo.c,) program to see if your
+[TOTP debugger](https://raw.githubusercontent.com/google/google-authenticator-libpam/master/totp.html). And you can also run the [demo.c](https://github.com/google/google-authenticator/blob/master/examples/demo.c,) program to see if your
 token would be accepted by the server.
