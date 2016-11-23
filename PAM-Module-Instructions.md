@@ -30,4 +30,4 @@ Each time you log into your system, you will now be prompted for your TOTP code
 (timebased one-time-password) after having entered your normal user id and your
 normal UNIX account password.
 
-For more details, see the [README](https://github.com/google/google-authenticator-libpam/README.md).
+For more details, see the [README](https://github.com/google/google-authenticator-libpam/blob/master/README.md).
