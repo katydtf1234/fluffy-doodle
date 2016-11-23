@@ -7,9 +7,8 @@ The PAM module has an optional feature to detect and compensate for
 excessive skew in time stamps. If enabled, if requires the user to
 repeatedly try to log in. After a sequence of three successful tokens
 the PAM module learns the client's time skew and will subsequently
-compensate for it. See the [README](https://github.com/google/google-authenticator/blob/master/libpam/README.md#noskewadj) file for details.
+compensate for it. See the [README](https://github.com/google/google-authenticator-libpam/blob/master/README.md#noskewadj) file for details.
 
 But sometimes interactive debugging tools are more helpful in tracking
 down problems. For this purpose, you can use the interactive
-[TOTP debugger](https://raw.githubusercontent.com/google/google-authenticator-libpam/master/totp.html). And you can also run the [demo.c](https://github.com/google/google-authenticator/blob/master/examples/demo.c,) program to see if your
-token would be accepted by the server.
+[TOTP debugger](https://raw.githubusercontent.com/google/google-authenticator-libpam/master/totp.html). And you can also run the [demo.c](https://github.com/google/google-authenticator-libpam/blob/master/examples/demo.c) program to see if your token would be accepted by the server.
