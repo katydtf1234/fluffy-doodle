@@ -68,7 +68,9 @@ Secret
 ------
 
 **REQUIRED**: The **`secret`** parameter is an arbitrary key value encoded in Base32
-according to [RFC 3548](http://tools.ietf.org/html/rfc3548).
+according to [RFC 3548](http://tools.ietf.org/html/rfc3548). The padding specified
+in [RFC 3548 section 2.2](https://tools.ietf.org/html/rfc3548#section-2.2) is not
+required and should be omitted.
 
 Issuer
 ------
