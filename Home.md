@@ -56,7 +56,7 @@ The BlackBerry mobile app supports:
 PAM Module
 ==========
 
-The [PAM module](https://github.com/google/google-authenticator/tree/master/libpam) can add
+The [PAM module](https://github.com/google/google-authenticator-libpam) can add
 a two-factor authentication step to any PAM-enabled application. It supports:
 
   * Per-user secret and status file stored in user's home directory
