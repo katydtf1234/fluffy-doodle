@@ -107,7 +107,7 @@ Digits
 **OPTIONAL**: The **`digits`** parameter may have the values 6 or 8, and determines how
 long of a one-time passcode to display to the user. The default is 6.
 
-> Currently, the digits parameter is ignored by the Google Authenticator implementations.
+> Currently, on Android and Blackberry the digits parameter is ignored by the Google Authenticator implementation.
 
 Counter
 -------
