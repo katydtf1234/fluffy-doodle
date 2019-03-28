@@ -70,4 +70,3 @@ Source Code
 ===========
 
 You can checkout the project's source code from the Git repository. See more details in [[Checking Out]].
-test
